@@ -1,3 +1,6 @@
-task Tarefa1: [:prereq1, :prereq2] do |t|
-    # actions (may reference t)
-  end
+desc "Print teste."
+task :test do
+  puts "Teste"
+end
+
+task :default => [:test]
