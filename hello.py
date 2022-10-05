@@ -10,5 +10,3 @@ def ler_arquivo(arquivo):
     print(linhas)
 
 ler_arquivo("hello.py")
-
-
