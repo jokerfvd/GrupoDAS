@@ -1,5 +1,5 @@
 FROM python:3.6
 
-COPY .
+COPY . teste
 
 CMD ["ptthon3", "hello.py"]
