@@ -1,7 +1,5 @@
 FROM python:3.6
 
-COPY ./GrupoDAS
-
-WORKDIR GrupoDAS
+COPY .
 
 CMD ["ptthon3", "hello.py"]
